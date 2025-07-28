@@ -1,0 +1,6 @@
+1. Install Fly CLI: https://fly.io/docs/hands-on/install-flyctl/
+2. Log in: fly auth login
+3. Copy your .env.example to .env and fill your credentials
+4. Run: fly launch --name quotex-verification-bot
+5. Run: fly deploy
+6. Done! Use fly logs to monitor your bot.
